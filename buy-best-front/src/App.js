@@ -18,8 +18,8 @@ function App() {
         </div>
        </div>
       <div className='chatbox w-full bg-gray3 '>
-        <ChatLeft text="Hellos shshs"/>
-        <ChatRight text="Hello"/>
+        <ChatLeft message="Hellos shshs"/>
+        <ChatRight message="Hello"/>
       </div>
 
     </div>
