@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import './index.css';
+import ChatRight from './components/ChatRight';
+import ChatLeft from './components/ChatLeft';
 
 function App() {
   return (
@@ -15,23 +17,9 @@ function App() {
           </div>
         </div>
        </div>
-      <div className='chatbox w-full h-[calc(100vh-60px)] bg-gray3 '>
-        <div className='container mx-auto flex-right  '>
-          <div className='flex flex-col '>
-           <span className='`w-1/2 h-auto sm:w-[200px] h-[130px] bg-gray2 rounded-xl my-1 sm:my-5 py-5 text-white
-        border border-black border-opacity-60 relative overflow-hidden
-        transition duration-300 hover:border-red flex flex-col justify-start p-4`'>We are here to help you</span>
-          </div>
-        </div>
-        <div className='container mx-auto flex-right  '>
-          <div className='flex flex-col '>
-           <span className='`w-1/2 h-auto sm:w-[200px] h-[130px] bg-gray2 rounded-xl my-1 sm:my-5 py-5 text-white
-        border border-black border-opacity-60 relative overflow-hidden
-        transition duration-300 hover:border-red flex justify-end p-4`'>We are here to help you</span>
-          </div>
-        </div>
-
-       
+      <div className='chatbox w-full bg-gray3 '>
+        <ChatLeft text="Hellos shshs"/>
+        <ChatRight text="Hello"/>
       </div>
 
     </div>
